@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_FloatingBar
+  m_Shader: {fileID: 4800000, guid: 23887eb7987e28842b64657af354a0d7, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GridTex0:
+        m_Texture: {fileID: 2800000, guid: ca7abb511ea0dbe4e949cfdb2cbe1f9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GridTex1:
+        m_Texture: {fileID: 2800000, guid: 375707159d2415c4da68d7d948a91056, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _GridResoultion: 0
+    m_Floats:
+    - _BarPct1: 0.419
+    - _BarPct2: 0.55
+    - _BarPct3: 0.74
+    - _BarPct4: 1
+    - _CellCountX: 4.5
+    - _CellCountY: 1
+    - _ColorMask: 15
+    - _SizeX: 1
+    - _SizeY: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _BarColor1: {r: 0.6392157, g: 0.8627451, b: 0.29411766, a: 1}
+    - _BarColor2: {r: 0.9529412, g: 1, b: 0.5882353, a: 1}
+    - _BarColor3: {r: 0.8352941, g: 0.88235295, b: 1, a: 1}
+    - _BarColor4: {r: 0.5254902, g: 0.2, b: 0.24313726, a: 1}
+    - _Border: {r: 0.24, g: 0.33, b: 0.08, a: 0.33}
+    - _GridColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+  m_BuildTextureStacks: []
